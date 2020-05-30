@@ -57,6 +57,11 @@ div.Sections {
 	cursor: pointer;
 }
 
+.coolbutton.focus, .coolbutton:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
 #plusE {
 	float: right;
 	margin-right: 1vw;
@@ -70,6 +75,15 @@ div.Sections {
 #plusP {
 	float: right;
 	margin-right: 1vw;
+}
+
+#plusU {
+	float: right;
+	margin-right: 1vw;
+}
+
+#RiquezaUno {
+	display: ;
 }
 
 #ImpuestosEmpresas {
