@@ -1,3 +1,10 @@
+:root {
+  --ancho-contenido-laptop: 50vw;
+  --ancho-menos-margen-laptop: 48vw;
+  --ancho-contenido-ipad: 80vw;
+  --ancho-menos-margen-ipad: 78vw;
+}
+
 body {
   background-color: white;
 } 
@@ -7,11 +14,11 @@ h1 {
 }
 
 img {
-	width: 48vw;
+	width: var(--ancho-menos-margen-laptop);
 }
 
 .wrapper {
-	width: 50vw;
+	width: var(--ancho-contenido-laptop);
 	margin: 0 auto;
 	display: grid;
 	background-color: white;
@@ -24,7 +31,7 @@ img {
 	font-weight: bold;
 	margin: auto auto auto 0;
 	padding: 3vh 0 3vh 0;
-	width: 50vw;
+	width: var(--ancho-contenido-laptop);
 	text-align: center;
 	background-color: white;
 	color: #363636;
@@ -36,7 +43,7 @@ img {
 	font-weight: normal;
 	margin: auto auto auto 0;
 	padding: 0vh 0 4vh 0;
-	width: 50vw;
+	width: var(--ancho-contenido-laptop);
 	text-align: center;
 	background-color: white;
 	color: #363636;
@@ -49,17 +56,17 @@ div.Sections {
 	text-align: left;
  	top: 0;
  	z-index: 99;
- 	width: 50vw;
+ 	width: var(--ancho-contenido-laptop);
 }
 
 .Content {
 	margin-bottom: 3vh;
 	padding: 0vh 1vw 6vh 1vw;
-	width: 48vw;
+	width: var(--ancho-menos-margen-laptop);
 }
 
 .coolbutton {
-	width: 50vw;
+	width: var(--ancho-contenido-laptop);
 	background-color: #363636;
 	border: 0px;
 	padding: 1.5vh 0 1.5vh 1vw;
@@ -111,40 +118,40 @@ div.Sections {
 	font-size: 16px;
 	font-weight: normal;
 	padding: 2vh 0;
-	width: 50vw;
+	width: var(--ancho-contenido-laptop);
 }
 
 
 
 @media (max-width:1060px) {
 	img {
-	width: 78vw;
+	width: var(--ancho-menos-margen-ipad);
 	}
 
 	.wrapper {
-	width: 80vw;
+	width: var(--ancho-contenido-ipad);
 	}
 	div.Sections {
- 	width: 80vw;
+ 	width: var(--ancho-contenido-ipad);
 	}
 
 	.Content {
-	width: 78vw;
+	width: var(--ancho-menos-margen-ipad);
 	}
 	.Footer {
-	width: 80vw;
+	width: var(--ancho-contenido-ipad);
 	}
 
 	.coolbutton {
-	width: 80vw;
+	width: var(--ancho-contenido-ipad);
 	}
 
 	.MainTitle {
-	width: 80vw;
+	width: var(--ancho-contenido-ipad);
 	}
 
 	.SecondTitle {
-	width: 80vw;
+	width: var(--ancho-contenido-ipad);
 	}
 
 }
