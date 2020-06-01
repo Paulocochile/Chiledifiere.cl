@@ -34,14 +34,3 @@ function myFunctionNormal() {
 
 }
 
-function myFunctionUno() {
-  var x = document.getElementById("RiquezaUno");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    document.getElementById("plusU").innerHTML = "-";
-  } else {
-    x.style.display = "none";
-    document.getElementById("plusU").innerHTML = "+";
-  }
-
-}

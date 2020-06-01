@@ -1,6 +1,15 @@
 body {
   background-color: white;
-} 	
+} 
+
+h1 {
+	margin-top: 10vh;
+}
+
+img {
+	width: 48vw;
+}
+
 .wrapper {
 	width: 50vw;
 	margin: 0 auto;
@@ -40,20 +49,28 @@ div.Sections {
 	text-align: left;
  	top: 0;
  	z-index: 99;
+ 	width: 50vw;
+}
+
+.Content {
+	margin-bottom: 3vh;
+	padding: 0vh 1vw 6vh 1vw;
+	width: 48vw;
 }
 
 .coolbutton {
 	width: 50vw;
-	background-color: #f5f5f5;
+	background-color: #363636;
 	border: 0px;
 	padding: 1.5vh 0 1.5vh 1vw;
 	margin-bottom: 2px;
-	color: #363636;
+	color: white;
 	text-align: left;
+	font-size: 20px;
 }
 
 .coolbutton:hover {
-	background-color: #fafafa;
+	background-color: #505050;
 	cursor: pointer;
 }
 
@@ -77,15 +94,6 @@ div.Sections {
 	margin-right: 1vw;
 }
 
-#plusU {
-	float: right;
-	margin-right: 1vw;
-}
-
-#RiquezaUno {
-	display: ;
-}
-
 #ImpuestosEmpresas {
 	display: none;
 }
@@ -98,11 +106,6 @@ div.Sections {
 	display: none;
 }
 
-.Content {
-	margin-bottom: 3vh;
-	margin: 2vh 1vw 7vh 1vw;
-}
-
 .Footer {
 	text-align: center;
 	font-size: 16px;
@@ -113,10 +116,35 @@ div.Sections {
 
 
 
+@media (max-width:1060px) {
+	img {
+	width: 78vw;
+	}
 
+	.wrapper {
+	width: 80vw;
+	}
+	div.Sections {
+ 	width: 80vw;
+	}
 
+	.Content {
+	width: 78vw;
+	}
+	.Footer {
+	width: 80vw;
+	}
 
+	.coolbutton {
+	width: 80vw;
+	}
 
-.stackedit__html{margin-bottom:180px;margin-left:auto;margin-right:auto;padding-left:30px;padding-right:30px;max-width:750px}
+	.MainTitle {
+	width: 80vw;
+	}
 
-@media (min-width:1060px){.stackedit__right{left:250px}}.stackedit--pdf blockquote{border-left-color:#ececec}.stackedit--pdf .stackedit__html{padding-left:0;padding-right:0;max-width:none}
+	.SecondTitle {
+	width: 80vw;
+	}
+
+}
