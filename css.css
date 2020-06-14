@@ -7,7 +7,7 @@
 
 body {
   background-color: white;
-} 
+}
 
 h1 {
 	margin-top: 14vh;
@@ -19,7 +19,7 @@ p {
 }
 
 a {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 img {
@@ -48,9 +48,9 @@ img {
 
 .SecondTitle {
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: normal;
-	margin: auto auto auto 0;
+	margin: 5vh auto 5vh 0;
 	padding: 0vh 0 4vh 0;
 	width: var(--ancho-contenido-laptop);
 	text-align: center;
@@ -124,10 +124,11 @@ div.Sections {
 
 .Footer {
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 	padding: 2vh 0;
 	width: var(--ancho-contenido-laptop);
+  margin-top: 8vh;
 }
 
 
