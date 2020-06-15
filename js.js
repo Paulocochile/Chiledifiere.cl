@@ -34,3 +34,14 @@ function myFunctionNormal() {
 
 }
 
+function myFunctionSeguridad() {
+  var x = document.getElementById("ImpuestosSeguridad");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    document.getElementById("plusS").innerHTML = "+";
+  } else {
+    x.style.display = "block";
+    document.getElementById("plusS").innerHTML = "-";
+  }
+
+}

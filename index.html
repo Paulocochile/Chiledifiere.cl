@@ -4,7 +4,7 @@
     <title>ChileDifiere.cl</title>
     <link rel="stylesheet" href="css.css" />
     <script type="text/javascript" src="js.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans:wght@400;700&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   	<meta charset="UTF-8">
   	<meta name="description" content="Responsive simple site">
   	<meta name="keywords" content="HTML, CSS, JavaScript">
@@ -13,48 +13,35 @@
   </head>
   <body>
   	<div class="wrapper">
-  		<div class="MainTitle">ChileDifiere.cl</div>
-  		<div class="SecondTitle">Some differences between Chile and the rest of the OECD<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank">Traducción al Español</a></div>
+  		<div class="MainTitle">Chile Difiere</div>
+  		<div class="SecondTitle">Some differences between the Chilean model and the rest of the OECD<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank">Traducción al Español</a></div>
 
 
       <div class="Sections">
-        <button  onclick="myFunctionRicas()" class="coolbutton">Personal Income Taxes <i>(Taxes that hurt high salaries)</i><span id="plusP">+</span></button>
+        <button  onclick="myFunctionRicas()" class="coolbutton">Personal Income Taxes <i class="Parentesis">(Taxes that hurt high salaries)</i><span id="plusP">+</span></button>
       </div>
 
       <div class="Content" id="ImpuestosPersonasRicas" >
 
-                 <h1>Chile collects less than half of the OECD average from personal income taxes.</h1>
                  <img src="images/personal.png">
-                 <p>"Relative to the OECD average, the tax structure in Chile is characterised by substantially lower revenues from taxes on personal income."<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></p>
+                 <h1>"Relative to the OECD average, the tax structure in Chile is characterised by <b>substantially lower</b> revenues from taxes on personal income."<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></h1>
 
-                 <h1>Personal income tax is a progressive tax, <br>high salaries pay a bigger %</h1>
-                 <p>"The personal income tax is the most progressive tax, although there are significant cross-country variations."
-                    <br>
-                    <a href="https://www.oecd.org/economy/public-finance/TacklingincomeinequalityTheroleoftaxesandtransfers.pdf" target="_blank"><i>Joumard, Isabelle, Mauro
-                    Pisu and Debbie Bloch (2012), “Tackling
-                    income inequality: The role of taxes and transfers”, OECD Journal:
-                    Economic Studies, published online first.
-                    http://dx.doi.org/10.1787/eco_studies-2012-5k95xd6l65lt</i></a>
-                 </p>
-
-                 <h1>Chile doesn't use personal income tax to reduce inequality</h1>
                  <img src="images/ginibeforeafter.png">
-                 <p>"The Gini index measures the extent to which the distribution of incomes among households deviates from perfect equal
-                    distribution. A value of zero represents perfect equality and a value of 100 extreme inequality. Redistribution is measured by the
-                    difference between the Gini coefficient before personal income taxes and transfers (market incomes) and the Gini coefficient after
-                    taxes and transfers (disposable incomes) in per cent of the Gini coefficient before taxes and transfers."<br><a href="https://www.oecd-ilibrary.org/docserver/bc7569c6-en.pdf?expires=1591043357&id=id&accname=guest&checksum=E4090AAFC6AD41A52657D5BD5F62FAAC" target="_blank"><i>Causa, O. and M. Hermansen (2017), "Income redistribution through taxes and transfers across OECD countries", OECD Economics Department Working Papers, No. 1453, OECD Publishing, Paris, https://doi.org/10.1787/bc7569c6-en.</i></a></p>
+                 <p>"Redistribution is measured by the
+                    difference between the <b>Gini coefficient before personal income taxes</b> and transfers (market incomes) and the <b>Gini coefficient after
+                    taxes</b> and transfers (disposable incomes) in per cent of the Gini coefficient before taxes and transfers."<br><a href="https://www.oecd-ilibrary.org/docserver/bc7569c6-en.pdf?expires=1591043357&id=id&accname=guest&checksum=E4090AAFC6AD41A52657D5BD5F62FAAC" target="_blank"><i>Causa, O. and M. Hermansen (2017), "Income redistribution through taxes and transfers across OECD countries", OECD Economics Department Working Papers, No. 1453, OECD Publishing, Paris, https://doi.org/10.1787/bc7569c6-en.</i></a></p>
+                                   <h1>Unlike other OECD countries, Chile's personal income tax <b>does not reduce inequality</b>.</h1>
 
       </div>
 
       <div class="Sections">
-        <button  onclick="myFunctionNormal()" class="coolbutton">VAT, Value-Added Taxes <i>(Taxes that hurt low salaries)</i><span id="plusN">+</span></button>
+        <button  onclick="myFunctionNormal()" class="coolbutton">VAT, Value-Added Taxes <i class="Parentesis">(Taxes that hurt low salaries)</i><span id="plusN">+</span></button>
       </div>
 
       <div class="Content" id="ImpuestosPersonasNormales" >
 
-                 <h1>El Estado Chileno recauda mas del doble que el promedio OCDE del IVA</h1>
                  <img src="images/iva.png">
-                 <p>Relative to the OECD average, the tax structure in Chile is characterised by substantially higher revenues from value-added taxes (VAT).<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></p>
+                 <h1>"Relative to the OECD average, the tax structure in Chile is characterised by <b>substantially higher</b> revenues from value-added taxes (VAT)."<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></h1>
 
                  <h1>El IVA perjudica a los pobres</h1>
                  <p>VAT<a href="https://www.taxresearch.org.uk/Blog/2018/10/09/vat-is-regressive/" target="_blank"><i>is a regressive tax</i></a>.This means the lower your salary is, the more % is taken by VAT.</p>
@@ -62,36 +49,36 @@
       </div>
 
       <div class="Sections">
-        <button  onclick="myFunctionEmpresas()" class="coolbutton">Taxes on Corporate Gains <i>(Taxes that hurt companies)</i><span id="plusE">+</span></button>
+        <button  onclick="myFunctionEmpresas()" class="coolbutton">Taxes on Corporate Gains <i class="Parentesis">(Taxes that hurt companies)</i><span id="plusE">+</span></button>
       </div>
 
       <div class="Content" id="ImpuestosEmpresas" >
 
-                 <h1>El Estado Chileno recauda mas del doble que el promedio OCDE de utilidades</h1>
+
                  <img src="images/income.png">
-                 <p>Como sale en <a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a>, cerca del 42% de lo que recauda el Estado Chileno viene del IVA. En la OECD, el promedio es 20%.</p>
+                 <h1>"The tax structure in Chile is characterised by <b>substantially higher</b> revenues from taxes on corporate income & gains."<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></h1>
 
                  <h1>Un impuesto bajo a las utilidades atrae inversion al pais</h1>
-                 <p>Relative to the OECD average, the tax structure in Chile is characterised by substantially higher revenues from taxes on corporate income & gains.<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></p>
 
       </div>
 
       <div class="Sections">
-        <button  onclick="myFunctionEmpresas()" class="coolbutton">Social Security Contributions <i>(Taxes that benefit who can't work)</i><span id="plusE">+</span></button>
+        <button  onclick="myFunctionSeguridad()" class="coolbutton">Social Security Contributions <i class="Parentesis">(Taxes that benefit who can't work)</i><span id="plusS">+</span></button>
       </div>
 
-      <div class="Content" id="ImpuestosEmpresas" >
+      <div class="Content" id="ImpuestosSeguridad" >
 
-                 <h1>El Estado Chileno recauda mas del doble que el promedio OCDE de utilidades</h1>
+
                  <img src="images/income.png">
-                 <p>Como sale en <a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a>, cerca del 42% de lo que recauda el Estado Chileno viene del IVA. En la OECD, el promedio es 20%.</p>
+                 <h1>"Relative to the OECD average, the tax structure in Chile is characterised by <b>substantially lower</b> revenues from social security contributions."<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></h1>
 
                  <h1>Un impuesto bajo a las utilidades atrae inversion al pais</h1>
-                 <p>Relative to the OECD average, the tax structure in Chile is characterised by substantially higher revenues from taxes on corporate income & gains.<br><a href="https://www.oecd.org/tax/revenue-statistics-chile.pdf" target="_blank"><i>OECD Revenue Statistics 2019</i></a></p>
 
       </div>
 
-  		<div class="Footer">Made by <a href="https://twitter.com/pauloco15" target="_blank">Pablo</a></div>
+  		<div class="Footer">Made by Pablo
+        <br></br><a href="https://twitter.com/pauloco15?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pauloco15</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
   	</div>
   </body>
 </html>
